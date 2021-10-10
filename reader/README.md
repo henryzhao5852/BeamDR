@@ -18,15 +18,15 @@ We provide [training data](https://www.dropbox.com/s/0rp40y5p7xxrxur/reader_trai
 
 ```bash
 python run_reader_confidence.py \
---bert_model bert-base-uncased \
---output_dir output_hotpot_bert_base \
---train_file data/hotpot/hotpot_reader_train_data.json \
---predict_file data/hotpot/hotpot_dev_squad_v2.0_format.json \
---max_seq_length 384 \
---do_train \
---do_predict \
---do_lower_case \
---version_2_with_negative 
+    --bert_model bert-base-uncased \
+    --output_dir output_hotpot_bert_base \
+    --train_file data/hotpot/hotpot_reader_train_data.json \
+    --predict_file data/hotpot/hotpot_dev_squad_v2.0_format.json \
+    --max_seq_length 384 \
+    --do_train \
+    --do_predict \
+    --do_lower_case \
+    --version_2_with_negative 
 ```
 
 ## Evaluation
