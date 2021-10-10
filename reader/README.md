@@ -16,6 +16,7 @@ We provide [training data](https://www.dropbox.com/s/0rp40y5p7xxrxur/reader_trai
 
 ## Training
 
+```bash
 python run_reader_confidence.py \
 --bert_model bert-base-uncased \
 --output_dir output_hotpot_bert_base \
@@ -26,7 +27,7 @@ python run_reader_confidence.py \
 --do_predict \
 --do_lower_case \
 --version_2_with_negative 
-
+```
 
 ## Evaluation
 
